@@ -13,6 +13,7 @@ func FuzzBasicOverwriteString(f *testing.F) {
 	})
 }
 
+// nah
 func FuzzOverwriteStringSuffix(f *testing.F) {
 	f.Add("Hello, world!", 'A', 15)
 
