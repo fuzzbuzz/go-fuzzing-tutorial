@@ -1,2 +1,5 @@
 tutorial:
+  deps:
+    - run: apt update && apt install -y sqlite3
+    - modules:
   language: go
